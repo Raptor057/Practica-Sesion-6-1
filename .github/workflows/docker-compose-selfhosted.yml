@@ -10,11 +10,13 @@ on:
 
 jobs:
   build-and-up:
-    runs-on:
-      # Etiquetas del runner que vas a crear en clase
-      - self-hosted
-      - linux
-      - ubuntu-server
+    # runs-on:
+    #   # Etiquetas del runner especifico
+    #   - self-hosted
+    #   - linux
+    #   - X64
+
+    runs-on: self-hosted #si quieres que tome cualquier runner self-hosted sin etiquetas extra:
 
     steps:
       - name: Checkout repo

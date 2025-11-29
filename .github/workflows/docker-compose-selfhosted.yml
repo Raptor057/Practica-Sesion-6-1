@@ -14,7 +14,7 @@ jobs:
       # Etiquetas del runner que vas a crear en clase
       - self-hosted
       - linux
-      - clase-devops-docker
+      - ubuntu-server
 
     steps:
       - name: Checkout repo
